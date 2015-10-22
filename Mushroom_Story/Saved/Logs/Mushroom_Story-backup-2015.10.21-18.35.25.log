@@ -1,0 +1,866 @@
+﻿Log file open, 10/14/15 18:33:39
+LogInit:Display: Running engine for game: Mushroom_Story
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.10.15-01.33.39:252][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.10.15-01.33.39:334][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.15-01.33.39:397][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.15-01.33.39:429][  0]LogInit: Object subsystem initialized
+[2015.10.15-01.33.39:442][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.15-01.33.39:442][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.15-01.33.39:469][  0]LogInit: Computer: BADASSPC
+[2015.10.15-01.33.39:469][  0]LogInit: User: Tiffany
+[2015.10.15-01.33.39:469][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.15-01.33.39:469][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2015.10.15-01.33.39:469][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.10.15-01.33.39:470][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.15-01.33.39:470][  0]LogMemory: Process Physical Memory: 45.72 MB used, 45.72 MB peak
+[2015.10.15-01.33.39:470][  0]LogMemory: Process Virtual Memory: 24.65 MB used, 24.65 MB peak
+[2015.10.15-01.33.39:470][  0]LogMemory: Physical Memory: 4192.62 MB used, 8075.10 MB total
+[2015.10.15-01.33.39:470][  0]LogMemory: Virtual Memory: 292.52 MB used, 134217728.00 MB total
+[2015.10.15-01.33.39:634][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.10.15-01.33.39:634][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.10.15-01.33.39:674][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 745M   (Feature Level 11_0)
+[2015.10.15-01.33.39:674][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.10.15-01.33.39:678][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.15-01.33.39:679][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.15-01.33.39:679][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.15-01.33.39:696][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.15-01.33.39:734][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.15-01.33.39:931][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.10.15-01.33.40:148][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.10.15-01.33.40:148][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.10.15-01.33.40:429][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.15-01.33.50:710][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.15-01.33.52:666][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.15-01.33.52:893][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.15-01.33.53:027][  0]LogDerivedDataCache: Loaded boot cache 0.13s 39MB C:/Users/Tiffany/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.10.15-01.33.53:027][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tiffany/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.10.15-01.33.53:028][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.15-01.33.53:028][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.15-01.33.53:534][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.15-01.33.53:551][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tiffany/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.15-01.33.54:958][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.15-01.33.54:958][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.15-01.33.57:323][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.15-01.33.57:734][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.10.15-01.34.01:652][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.15-01.34.02:504][  0]SourceControl: Info Source control is disabled
+[2015.10.15-01.34.02:504][  0]SourceControl: Info Source control is disabled
+[2015.10.15-01.34.02:504][  0]SourceControl: Info Source control is disabled
+[2015.10.15-01.34.02:504][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.10.15-01.34.02:505][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.10.15-01.34.02:548][  0]SourceControl: Info Source control is disabled
+[2015.10.15-01.34.03:465][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.10.15-01.34.03:465][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.10.15-01.34.03:791][  0]LogEngine: Initializing Engine...
+[2015.10.15-01.34.06:334][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.15-01.34.06:567][  0]LogInit: FAudioDevice initialized.
+[2015.10.15-01.34.06:780][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.15-01.34.06:840][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Tiffany/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.10.15-01.34.06:849][  0]LogInit: Texture streaming: Enabled
+[2015.10.15-01.34.07:285][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.15-01.34.07:285][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.10.15-01.34.07:285][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.10.15-01.34.07:286][  0]LogAnalytics: SetUserId 09f187a0416c23cb62e6e18f744bec56|afa1a2422bee4b5687738902efbc6ec2|d84ab259-0cc1-4c38-a264-1ee436c07e8c
+[2015.10.15-01.34.07:286][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.10.15-01.34.07:404][  0]LogInit: Transaction tracking system initialized
+[2015.10.15-01.34.08:384][  0]BlueprintLog: New page: Editor Load
+[2015.10.15-01.34.08:532][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.10.15-01.34.08:534][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.15-01.34.11:588][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.15-01.34.13:643][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.15-01.34.14:660][  0]LogInit:Warning: CVar named 'r.MobileHDR' marked up in URenderingSettings was not found or is set to read-only
+[2015.10.15-01.34.34:251][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.10.15-01.34.34:253][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.10.15-01.34.34:470][  0]LogConsoleResponse:Display: 
+[2015.10.15-01.34.35:280][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.15-01.34.36:163][  0]SourceControl: Info Source control is disabled
+[2015.10.15-01.34.36:345][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.10.15-01.34.36:346][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.10.15-01.34.36:346][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2015.10.15-01.34.52:424][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.10.15-01.34.52:433][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.10.15-01.34.52:441][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.10.15-01.34.52:449][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2015.10.15-01.34.52:458][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2015.10.15-01.34.52:463][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.10.15-01.34.52:470][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.10.15-01.34.52:476][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.10.15-01.34.52:482][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.10.15-01.34.52:490][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.10.15-01.34.52:497][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.10.15-01.34.52:502][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.10.15-01.34.52:507][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.10.15-01.34.52:513][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Collapse01.uasset
+[2015.10.15-01.34.52:521][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Collapse02.uasset
+[2015.10.15-01.34.52:530][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.10.15-01.34.52:542][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Explosion01.uasset
+[2015.10.15-01.34.52:549][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Explosion02.uasset
+[2015.10.15-01.34.52:555][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.10.15-01.34.52:561][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Fire01.uasset
+[2015.10.15-01.34.52:568][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.10.15-01.34.52:574][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.10.15-01.34.52:583][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.10.15-01.34.52:588][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Light01.uasset
+[2015.10.15-01.34.52:596][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.10.15-01.34.52:603][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Light02.uasset
+[2015.10.15-01.34.52:610][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.10.15-01.34.52:617][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Smoke01.uasset
+[2015.10.15-01.34.52:624][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.10.15-01.34.52:631][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.10.15-01.34.52:636][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.10.15-01.34.52:678][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.10.15-01.34.52:702][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.10.15-01.34.52:708][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.10.15-01.34.52:720][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.10.15-01.34.52:805][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Steam01.uasset
+[2015.10.15-01.34.52:814][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.10.15-01.34.52:820][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.10.15-01.34.52:829][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.10.15-01.34.52:836][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.10.15-01.34.52:846][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.10.15-01.34.52:853][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.10.15-01.34.52:860][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.10.15-01.34.52:867][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.10.15-01.34.52:875][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.10.15-01.34.52:881][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.10.15-01.34.52:889][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.10.15-01.34.52:897][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.10.15-01.34.52:903][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.10.15-01.34.52:909][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.10.15-01.34.52:915][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.10.15-01.34.52:923][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.10.15-01.34.52:930][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.10.15-01.34.52:939][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.10.15-01.34.53:066][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.10.15-01.34.53:073][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.10.15-01.34.53:080][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Maps/StarterMap.umap
+[2015.10.15-01.34.53:117][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.10.15-01.34.53:122][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.10.15-01.34.53:128][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.10.15-01.34.53:134][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.10.15-01.34.53:140][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.10.15-01.34.53:145][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.10.15-01.34.53:151][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.10.15-01.34.53:156][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.10.15-01.34.53:161][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.10.15-01.34.53:167][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.10.15-01.34.53:175][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.10.15-01.34.53:188][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.10.15-01.34.53:193][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.10.15-01.34.53:199][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.10.15-01.34.53:205][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.10.15-01.34.53:210][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.10.15-01.34.53:217][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.10.15-01.34.53:763][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Glass.uasset
+[2015.10.15-01.34.53:769][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.10.15-01.34.53:774][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.10.15-01.34.53:779][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.10.15-01.34.53:784][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.10.15-01.34.53:790][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.10.15-01.34.53:796][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.10.15-01.34.53:801][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.10.15-01.34.53:806][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.10.15-01.34.53:847][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.10.15-01.34.53:853][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.10.15-01.34.53:858][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.10.15-01.34.53:864][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.10.15-01.34.53:869][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.10.15-01.34.53:874][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.10.15-01.34.53:879][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.10.15-01.34.53:885][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.10.15-01.34.53:891][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.10.15-01.34.53:898][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.10.15-01.34.53:904][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.10.15-01.34.53:909][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.10.15-01.34.53:916][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.10.15-01.34.53:921][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.10.15-01.34.53:926][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.10.15-01.34.53:932][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.10.15-01.34.53:937][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.10.15-01.34.53:942][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.10.15-01.34.53:949][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.10.15-01.34.53:955][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.10.15-01.34.53:974][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.10.15-01.34.53:981][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.10.15-01.34.53:989][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.10.15-01.34.53:995][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.10.15-01.34.54:001][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.10.15-01.34.54:006][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.10.15-01.34.54:011][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.10.15-01.34.54:017][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.10.15-01.34.54:022][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.10.15-01.34.54:066][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/P_Fire.uasset
+[2015.10.15-01.34.54:073][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.10.15-01.34.54:078][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.10.15-01.34.54:084][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.10.15-01.34.54:090][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.10.15-01.34.54:122][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.10.15-01.34.54:129][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.10.15-01.34.54:136][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.10.15-01.34.54:142][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.10.15-01.34.54:147][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.10.15-01.34.54:153][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.10.15-01.34.54:160][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.10.15-01.34.54:166][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.10.15-01.34.54:173][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.10.15-01.34.54:179][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.10.15-01.34.54:185][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.10.15-01.34.54:191][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.10.15-01.34.54:196][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Bush.uasset
+[2015.10.15-01.34.54:201][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Chair.uasset
+[2015.10.15-01.34.54:208][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.10.15-01.34.54:215][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Couch.uasset
+[2015.10.15-01.34.54:221][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Door.uasset
+[2015.10.15-01.34.54:226][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.10.15-01.34.54:231][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.10.15-01.34.54:236][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.10.15-01.34.54:242][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.10.15-01.34.54:248][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.10.15-01.34.54:258][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.10.15-01.34.54:264][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.10.15-01.34.54:271][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Rock.uasset
+[2015.10.15-01.34.54:277][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.10.15-01.34.54:282][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.10.15-01.34.54:287][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_Statue.uasset
+[2015.10.15-01.34.54:323][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.10.15-01.34.54:333][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.10.15-01.34.54:342][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.10.15-01.34.54:349][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.10.15-01.34.54:354][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.10.15-01.34.54:594][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.10.15-01.34.54:601][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.10.15-01.34.54:608][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.10.15-01.34.54:614][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.10.15-01.34.54:619][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.10.15-01.34.54:624][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.10.15-01.34.54:629][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.10.15-01.34.54:635][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.10.15-01.34.54:641][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.10.15-01.34.54:647][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.10.15-01.34.54:653][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.10.15-01.34.54:658][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.10.15-01.34.54:664][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.10.15-01.34.54:669][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.10.15-01.34.54:684][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.10.15-01.34.54:690][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.10.15-01.34.54:696][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2015.10.15-01.34.54:701][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2015.10.15-01.34.54:707][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/Sky54a2048.uasset
+[2015.10.15-01.34.54:725][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2015.10.15-01.34.54:732][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2015.10.15-01.34.54:738][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2015.10.15-01.34.54:743][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2015.10.15-01.34.54:750][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2015.10.15-01.34.54:757][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2015.10.15-01.34.54:763][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2015.10.15-01.34.54:770][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.10.15-01.34.54:833][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.10.15-01.34.54:852][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.10.15-01.34.54:869][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.10.15-01.34.54:916][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.10.15-01.34.54:935][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.10.15-01.34.54:979][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.10.15-01.34.55:329][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.10.15-01.34.55:346][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.10.15-01.34.55:372][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.10.15-01.34.55:388][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.10.15-01.34.55:405][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.10.15-01.34.55:421][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.10.15-01.34.55:439][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.10.15-01.34.55:445][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.10.15-01.34.55:451][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.10.15-01.34.55:457][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.10.15-01.34.55:465][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.10.15-01.34.55:524][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.10.15-01.34.55:532][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.10.15-01.34.55:542][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.10.15-01.34.55:548][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2015.10.15-01.34.55:556][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2015.10.15-01.34.55:563][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2015.10.15-01.34.55:570][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2015.10.15-01.34.55:575][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2015.10.15-01.34.55:581][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2015.10.15-01.34.55:666][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2015.10.15-01.34.55:671][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2015.10.15-01.34.55:679][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.10.15-01.34.55:705][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.10.15-01.34.55:712][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.10.15-01.34.55:736][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.10.15-01.34.55:889][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.10.15-01.34.55:898][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.10.15-01.34.55:914][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.10.15-01.34.55:930][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.10.15-01.34.55:953][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2015.10.15-01.34.56:412][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2015.10.15-01.34.56:421][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2015.10.15-01.34.56:426][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2015.10.15-01.34.56:432][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2015.10.15-01.34.56:437][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2015.10.15-01.34.56:443][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2015.10.15-01.34.56:450][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.10.15-01.34.56:478][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2015.10.15-01.34.56:483][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.10.15-01.34.56:630][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.10.15-01.34.56:649][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.10.15-01.34.56:676][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.10.15-01.34.56:700][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.10.15-01.34.56:744][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.10.15-01.34.56:762][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.10.15-01.34.56:781][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.10.15-01.34.56:786][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2015.10.15-01.34.56:791][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2015.10.15-01.34.56:797][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2015.10.15-01.34.56:804][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2015.10.15-01.34.56:812][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2015.10.15-01.34.56:818][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.10.15-01.34.56:832][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2015.10.15-01.34.56:838][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2015.10.15-01.34.56:845][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.10.15-01.34.56:899][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.10.15-01.34.56:906][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.10.15-01.34.56:912][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.10.15-01.34.56:924][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.10.15-01.34.56:930][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.10.15-01.34.56:937][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.10.15-01.34.56:943][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.10.15-01.34.56:951][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2015.10.15-01.34.56:956][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2015.10.15-01.34.56:961][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2015.10.15-01.34.56:966][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2015.10.15-01.34.56:971][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2015.10.15-01.34.56:976][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2015.10.15-01.34.56:982][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2015.10.15-01.34.56:986][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2015.10.15-01.34.56:991][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.10.15-01.34.56:996][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2015.10.15-01.34.57:001][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2015.10.15-01.34.57:167][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2015.10.15-01.34.57:174][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2015.10.15-01.34.57:181][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2015.10.15-01.34.57:187][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2015.10.15-01.34.57:192][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2015.10.15-01.34.57:197][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2015.10.15-01.34.57:204][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2015.10.15-01.34.57:210][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.10.15-01.34.57:241][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.10.15-01.34.57:301][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.10.15-01.34.57:329][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.10.15-01.34.57:352][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.10.15-01.34.57:382][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.10.15-01.34.57:403][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2015.10.15-01.34.57:409][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.10.15-01.34.57:416][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.10.15-01.34.57:425][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.10.15-01.34.57:447][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.10.15-01.34.57:468][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.10.15-01.34.57:487][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2015.10.15-01.34.57:493][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2015.10.15-01.34.57:503][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.10.15-01.34.57:609][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.10.15-01.34.57:704][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2015.10.15-01.34.57:709][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2015.10.15-01.34.57:714][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2015.10.15-01.34.57:720][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2015.10.15-01.34.57:724][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2015.10.15-01.34.57:730][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2015.10.15-01.34.57:736][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2015.10.15-01.34.57:741][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2015.10.15-01.34.57:746][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.10.15-01.34.57:767][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.10.15-01.34.57:995][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2015.10.15-01.34.58:000][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2015.10.15-01.34.58:005][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.10.15-01.34.58:017][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.10.15-01.34.58:030][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2015.10.15-01.34.58:035][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2015.10.15-01.34.58:042][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2015.10.15-01.34.58:047][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2015.10.15-01.34.58:052][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2015.10.15-01.34.58:059][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2015.10.15-01.34.58:064][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.10.15-01.34.58:086][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2015.10.15-01.34.58:093][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2015.10.15-01.34.58:098][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2015.10.15-01.34.58:104][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2015.10.15-01.34.58:109][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2015.10.15-01.34.58:114][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2015.10.15-01.34.58:120][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2015.10.15-01.34.58:125][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2015.10.15-01.34.58:131][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2015.10.15-01.34.58:560][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2015.10.15-01.34.58:566][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2015.10.15-01.34.58:571][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2015.10.15-01.34.58:578][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2015.10.15-01.34.58:584][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2015.10.15-01.34.58:590][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2015.10.15-01.34.58:597][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2015.10.15-01.34.58:604][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2015.10.15-01.34.58:615][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.10.15-01.34.58:635][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.10.15-01.34.58:695][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2015.10.15-01.34.58:701][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2015.10.15-01.34.58:706][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2015.10.15-01.34.58:712][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.10.15-01.34.58:725][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.10.15-01.34.58:745][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.10.15-01.34.58:765][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.10.15-01.34.58:789][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.10.15-01.34.58:814][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.10.15-01.34.58:836][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.10.15-01.34.59:057][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.10.15-01.34.59:672][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2015.10.15-01.34.59:678][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.10.15-01.34.59:888][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.10.15-01.34.59:898][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.10.15-01.34.59:906][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2015.10.15-01.34.59:912][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2015.10.15-01.34.59:918][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.10.15-01.34.59:929][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.10.15-01.34.59:935][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.10.15-01.34.59:941][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.10.15-01.34.59:947][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.10.15-01.34.59:953][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2015.10.15-01.34.59:960][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2015.10.15-01.34.59:966][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.10.15-01.34.59:973][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.10.15-01.34.59:983][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.10.15-01.34.59:990][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.10.15-01.34.59:998][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.10.15-01.35.00:007][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.10.15-01.35.00:015][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.10.15-01.35.00:022][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.10.15-01.35.00:032][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2015.10.15-01.35.00:107][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2015.10.15-01.35.00:114][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2015.10.15-01.35.00:121][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2015.10.15-01.35.00:127][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.10.15-01.35.00:138][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.10.15-01.35.00:150][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2015.10.15-01.35.00:156][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2015.10.15-01.35.00:162][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2015.10.15-01.35.00:169][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2015.10.15-01.35.00:176][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2015.10.15-01.35.00:183][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.10.15-01.35.00:308][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.10.15-01.35.00:834][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.10.15-01.35.00:905][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.10.15-01.35.00:939][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.10.15-01.35.01:210][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.10.15-01.35.02:980][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.10.15-01.35.02:994][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.10.15-01.35.03:011][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> ../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.10.15-01.35.03:047][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2015.10.15-01.35.10:537][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.10.15-01.35.18:509][  0]LogSavePackage: Save=671.994812ms
+[2015.10.15-01.35.18:509][  0]LogSavePackage: Moving '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/Floor_400x400F721D3F443AB2A4C52C2E8807C357942.tmp' to '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.10.15-01.35.18:527][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.10.15-01.35.18:533][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.15-01.35.18:536][  0]LightingResults: New page: Lighting Build
+[2015.10.15-01.35.18:606][  0]MapCheck: New page: Map Check
+[2015.10.15-01.35.18:606][  0]LightingResults: New page: Lighting Build
+[2015.10.15-01.35.18:663][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000067888C0680
+[2015.10.15-01.35.24:776][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.15-01.35.24:779][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.10.15-01.35.24:782][  0]Cmd: MAP CHECKDEP
+[2015.10.15-01.35.24:782][  0]MapCheck: New page: 2DSideScrollerExampleMap - Oct 14, 2015, 11:35:24 AM
+[2015.10.15-01.35.25:358][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 575.359ms to complete.
+[2015.10.15-01.35.25:359][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 6.826
+[2015.10.15-01.35.28:512][  0]LogCollectionManager: Loaded 0 collections in 0.009636 seconds
+[2015.10.15-01.35.28:672][  0]LogContentBrowser: Native class hierarchy populated in 0.1409 seconds. Added 1696 classes and 261 folders.
+[2015.10.15-01.35.30:531][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0176 seconds. Added 1 classes and 2 folders.
+[2015.10.15-01.35.32:875][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.15-01.35.33:029][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.10.15-01.35.33:167][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.15-01.35.33:276][  0]LogLoad: Full Startup: 119.46 seconds (BP compile: 1.02 seconds)
+[2015.10.15-01.35.33:430][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/2DSideScrollerBP'
+[2015.10.15-01.35.36:070][  0]LogRenderer:Warning: Reallocating scene render targets to support 968x440 (Frame:3).
+[2015.10.15-01.35.44:864][ 20]LogAssetRegistry: Asset discovery search completed in 96.3436 seconds
+[2015.10.15-01.35.49:774][195]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.15-01.35.49:774][195]PIE: New page: PIE session: 2DSideScrollerExampleMap (Oct 14, 2015, 11:35:49 AM)
+[2015.10.15-01.35.49:784][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007864s)
+[2015.10.15-01.35.49:786][195]LogPlayLevel: PIE: World Init took: (0.001916s)
+[2015.10.15-01.35.49:786][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.010377s)
+[2015.10.15-01.35.49:916][195]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.10.15-01.35.50:061][195]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.10.15-01.35.50:090][195]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2015.10.14-18.35.50
+[2015.10.15-01.35.50:116][195]LogWorld: Bringing up level for play took: 0.053708
+[2015.10.15-01.35.50:271][195]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.232
+[2015.10.15-01.38.33:924][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006792D2D4E0
+[2015.10.15-01.39.54:625][182]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2015.10.15-01.39.55:171][182]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2015.10.15-01.39.57:580][263]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2015.10.15-01.40.16:016][984]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_32)
+[2015.10.15-01.40.16:212][985]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2015.10.15-01.40.16:388][986]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2015.10.15-01.40.17:431][ 26]Cmd: EDIT COPY
+[2015.10.15-01.40.18:378][ 58]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.10.15-01.40.18:399][ 58]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.10.15-01.40.18:401][ 58]Cmd: EDIT PASTE
+[2015.10.15-01.40.18:437][ 58]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.10.15-01.40.32:900][621]Cmd: TRANSACTION UNDO
+[2015.10.15-01.40.32:900][621]LogEditorTransaction: Undo Move Components
+[2015.10.15-01.41.07:753][ 43]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2015.10.15-01.41.08:139][ 51]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2015.10.15-01.41.08:273][ 52]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2015.10.15-01.41.14:787][292]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_12)
+[2015.10.15-01.41.16:573][359]Cmd: EDIT COPY
+[2015.10.15-01.41.16:970][375]Cmd: EDIT PASTE
+[2015.10.15-01.41.23:485][623]Cmd: EDIT PASTE
+[2015.10.15-01.42.44:674][ 49]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.15-01.42.44:674][ 49]PIE: New page: PIE session: 2DSideScrollerExampleMap (Oct 14, 2015, 11:42:44 AM)
+[2015.10.15-01.42.44:687][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011545s)
+[2015.10.15-01.42.44:689][ 49]LogPlayLevel: PIE: World Init took: (0.002138s)
+[2015.10.15-01.42.44:690][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.014357s)
+[2015.10.15-01.42.44:762][ 49]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.10.15-01.42.44:770][ 49]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.10.15-01.42.44:811][ 49]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2015.10.14-18.42.44
+[2015.10.15-01.42.44:815][ 49]LogWorld: Bringing up level for play took: 0.042659
+[2015.10.15-01.42.44:825][ 49]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.214
+[2015.10.15-01.43.00:236][872]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006782B62160
+[2015.10.15-01.43.02:996][971]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2015.10.15-01.43.03:161][971]LogEditorViewport: Clicking on Component (LMB): PaperFlipbookComponent (Sprite0)
+[2015.10.15-01.43.17:220][419]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-01.43.17:310][419]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2015.10.15-01.43.35:005][996]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.10.15-01.43.40:801][207]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.10.15-01.43.41:809][208]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0204 seconds. Added 1 classes and 2 folders.
+[2015.10.15-01.43.56:343][509]LogMaterial: Missing cached shader map for material T_Brick_Hewn_Stone_Mat, compiling. 
+[2015.10.15-01.44.13:576][149]LogMaterial: Missing cached shader map for material T_CobbleStone_Pebble_Mat, compiling. 
+[2015.10.15-01.44.59:851][666]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2015.10.15-01.45.10:904][769]LogEditorViewport: Clicking Background
+[2015.10.15-01.45.39:777][711]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_15)
+[2015.10.15-01.45.47:953][952]Cmd: TRANSACTION UNDO
+[2015.10.15-01.45.47:953][952]LogEditorTransaction: Undo Move Actors
+[2015.10.15-01.45.51:722][ 38]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_16)
+[2015.10.15-01.45.54:562][122]Cmd: TRANSACTION UNDO
+[2015.10.15-01.45.54:562][122]LogEditorTransaction: Undo Move Actors
+[2015.10.15-01.45.57:844][196]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_15)
+[2015.10.15-01.46.01:332][304]Cmd: TRANSACTION UNDO
+[2015.10.15-01.46.01:332][304]LogEditorTransaction: Undo Move Actors
+[2015.10.15-01.46.02:646][322]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-01.46.03:718][350]Cmd: TRANSACTION UNDO
+[2015.10.15-01.46.03:718][350]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.15-01.46.10:394][538]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.15-01.46.10:394][538]PIE: New page: PIE session: 2DSideScrollerExampleMap (Oct 14, 2015, 11:46:10 AM)
+[2015.10.15-01.46.10:404][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007825s)
+[2015.10.15-01.46.10:406][538]LogPlayLevel: PIE: World Init took: (0.002041s)
+[2015.10.15-01.46.10:407][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.010627s)
+[2015.10.15-01.46.10:496][538]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.10.15-01.46.10:504][538]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.10.15-01.46.10:544][538]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2015.10.14-18.46.10
+[2015.10.15-01.46.10:548][538]LogWorld: Bringing up level for play took: 0.042025
+[2015.10.15-01.46.10:556][538]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.483
+[2015.10.15-01.46.25:750][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000067873E8EA0
+[2015.10.15-01.46.29:670][140]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_16)
+[2015.10.15-01.46.40:391][366]LogSavePackage: Save=315.600647ms
+[2015.10.15-01.46.40:391][366]LogSavePackage: Moving '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/2DSideScrollerExampleMap40FC2B1F48754CAB06EADAA7EA12FD49.tmp' to '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.10.15-01.46.40:493][366]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 1.002
+[2015.10.15-01.46.41:265][366]LogSavePackage: Save=656.270813ms
+[2015.10.15-01.46.41:265][366]LogSavePackage: Moving '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/T_Brick_Hewn_Stone_MatC45A7DFA44A31F4A0BAF8DAEE3C63442.tmp' to '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_Brick_Hewn_Stone_Mat.uasset'
+[2015.10.15-01.46.41:888][366]LogSavePackage: Save=534.756714ms
+[2015.10.15-01.46.41:888][366]LogSavePackage: Moving '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/T_CobbleStone_Pebble_Mat09C807EA4B4D3CB5DCA4E7BA387CAC28.tmp' to '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/StarterContent/Textures/T_CobbleStone_Pebble_Mat.uasset'
+[2015.10.15-01.56.39:902][165]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.093
+[2015.10.15-02.01.28:958][214]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-02.01.35:787][512]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge)
+[2015.10.15-02.01.43:930][885]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2015.10.15-02.01.45:762][972]Cmd: EDIT COPY
+[2015.10.15-02.01.46:291][998]Cmd: EDIT PASTE
+[2015.10.15-02.01.53:561][263]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-02.01.54:180][276]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge)
+[2015.10.15-02.02.06:126][669]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-02.02.06:471][678]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-02.06.27:912][923]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-02.06.28:020][924]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2015.10.15-02.16.35:115][ 78]LogSavePackage: Save=291.514313ms
+[2015.10.15-02.16.35:116][ 78]LogSavePackage: Moving '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/2DSideScrollerExampleMap_Auto1568439B545702CD7935A809FA9C8F9E9.tmp' to '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2015.10.15-02.16.35:161][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.802
+[2015.10.15-02.16.35:161][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.802
+[2015.10.15-02.29.25:713][373]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2015.10.15-02.29.38:968][659]LogUnrealMath: Expression Error : No value recognized
+[2015.10.15-02.29.38:968][659]LogUnrealMath: Expression Error : Error in expression
+[2015.10.15-02.30.02:428][246]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2015.10.15-02.30.11:770][489]LogSavePackage: Save=378.332825ms
+[2015.10.15-02.30.11:770][489]LogSavePackage: Moving '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/2DSideScrollerExampleMap_Auto2F3EEB9F44E6E53471BEF7FA5B7E84345.tmp' to '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap'
+[2015.10.15-02.30.11:820][489]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.887
+[2015.10.15-02.30.11:820][489]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.887
+[2015.10.15-02.30.38:126][626]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-02.31.35:231][429]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge)
+[2015.10.15-02.31.45:788][884]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_33)
+[2015.10.15-02.31.48:617][960]Cmd: TRANSACTION UNDO
+[2015.10.15-02.31.48:618][960]LogEditorTransaction: Undo Move Actors
+[2015.10.15-02.31.49:832][970]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-02.31.51:038][996]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-02.31.51:668][  7]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_33)
+[2015.10.15-02.31.55:904][132]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2015.10.15-02.32.02:535][316]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_27)
+[2015.10.15-02.32.06:152][409]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_28)
+[2015.10.15-02.32.10:224][514]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_29)
+[2015.10.15-02.32.14:671][630]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_30)
+[2015.10.15-02.32.19:172][752]Cmd: TRANSACTION UNDO
+[2015.10.15-02.32.19:172][752]LogEditorTransaction: Undo Move Actors
+[2015.10.15-02.32.20:788][761]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2015.10.15-02.32.22:608][800]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_30)
+[2015.10.15-02.32.27:800][943]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_31)
+[2015.10.15-02.32.33:086][100]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_32)
+[2015.10.15-02.32.36:977][247]LogEditorViewport: Clicking Background
+[2015.10.15-02.32.38:509][318]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2015.10.15-02.32.47:245][614]LogEditorViewport: Clicking Background
+[2015.10.15-02.32.48:622][695]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2015.10.15-02.33.03:907][143]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2015.10.15-02.33.09:904][305]Cmd: EDIT COPY
+[2015.10.15-02.33.10:252][314]Cmd: EDIT PASTE
+[2015.10.15-02.33.15:259][447]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge)
+[2015.10.15-02.33.22:937][667]Cmd: EDIT PASTE
+[2015.10.15-02.33.39:264][170]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_17)
+[2015.10.15-02.33.42:888][270]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_25)
+[2015.10.15-02.33.45:772][353]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_34)
+[2015.10.15-02.33.49:387][459]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2015.10.15-02.33.53:507][567]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2015.10.15-02.33.56:484][645]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2015.10.15-02.33.58:837][704]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2015.10.15-02.34.01:007][754]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_12)
+[2015.10.15-02.34.05:754][894]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_16)
+[2015.10.15-02.34.08:798][  5]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_15)
+[2015.10.15-02.34.12:379][150]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.15-02.34.12:380][150]PIE: New page: PIE session: 2DSideScrollerExampleMap (Oct 14, 2015, 12:34:12 PM)
+[2015.10.15-02.34.12:388][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006723s)
+[2015.10.15-02.34.12:389][150]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2015.10.15-02.34.12:390][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008627s)
+[2015.10.15-02.34.12:445][150]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.10.15-02.34.12:451][150]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.10.15-02.34.12:479][150]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.10.14-19.34.12
+[2015.10.15-02.34.12:482][150]LogWorld: Bringing up level for play took: 0.029658
+[2015.10.15-02.34.12:487][150]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.552
+[2015.10.15-02.34.22:228][568]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006782E24720
+[2015.10.15-02.34.25:522][652]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2015.10.15-02.34.30:439][790]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2015.10.15-02.34.35:435][906]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.15-02.34.35:436][906]PIE: New page: PIE session: 2DSideScrollerExampleMap (Oct 14, 2015, 12:34:35 PM)
+[2015.10.15-02.34.35:447][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010158s)
+[2015.10.15-02.34.35:449][906]LogPlayLevel: PIE: World Init took: (0.001915s)
+[2015.10.15-02.34.35:450][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.012727s)
+[2015.10.15-02.34.35:526][906]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.10.15-02.34.35:535][906]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.10.15-02.34.35:576][906]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.10.14-19.34.35
+[2015.10.15-02.34.35:579][906]LogWorld: Bringing up level for play took: 0.041697
+[2015.10.15-02.34.35:586][906]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.547
+[2015.10.15-02.34.46:544][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000067972E42C0
+[2015.10.15-02.34.48:851][311]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_34)
+[2015.10.15-02.34.49:798][351]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_17)
+[2015.10.15-02.34.58:484][787]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_25)
+[2015.10.15-02.35.09:168][324]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.10.15-02.37.05:848][ 98]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.15-02.37.05:985][ 98]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/InstallingiTunesTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.15-02.37.06:038][ 98]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.15-02.40.36:508][603]LogSavePackage: Save=265.512085ms
+[2015.10.15-02.40.36:508][603]LogSavePackage: Moving '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/2DSideScrollerExampleMap_Auto31F3D90D9405AD8D14A570FB8C1CFF3C1.tmp' to '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto3.umap'
+[2015.10.15-02.40.36:537][603]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.568
+[2015.10.15-02.40.36:537][603]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.568
+[2015.10.15-03.01.29:763][786]LogSavePackage: Save=442.844879ms
+[2015.10.15-03.01.29:763][786]LogSavePackage: Moving '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/2DSideScrollerCharacter94ED9D974EC51C61B1582AA798083C58.tmp' to '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.15-03.02.22:403][990]LogSavePackage: Save=350.596436ms
+[2015.10.15-03.02.22:403][990]LogSavePackage: Moving '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Saved/2DSideScrollerExampleMap38A94381481EBBC32DE4F5B59A951209.tmp' to '../../../../../../Users/Tiffany/Documents/Unreal Projects/Mushroom_Story/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.10.15-03.02.22:502][990]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 1.547
+[2015.10.15-03.02.24:291][991]Cmd: QUIT_EDITOR
+[2015.10.15-03.02.25:734][991]LogExit: Preparing to exit.
+[2015.10.15-03.02.26:288][991]LogExit: Editor shut down
+[2015.10.15-03.02.26:290][991]LogExit: Transaction tracking system shut down
+[2015.10.15-03.02.26:292][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006782B63BA0
+[2015.10.15-03.02.26:298][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000067846DE8E0
+[2015.10.15-03.02.26:299][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006781804540
+[2015.10.15-03.02.26:300][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006782E258A0
+[2015.10.15-03.02.26:302][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006790872520
+[2015.10.15-03.02.26:307][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006782B62AC0
+[2015.10.15-03.02.26:575][991]LogExit: Object subsystem successfully closed.
+[2015.10.15-03.02.27:737][991]LogModuleManager: Shutting down and abandoning module TextureEditor (178)
+[2015.10.15-03.02.27:737][991]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.10.15-03.02.27:737][991]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.10.15-03.02.27:737][991]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.10.15-03.02.27:737][991]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.10.15-03.02.27:737][991]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.10.15-03.02.27:737][991]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.10.15-03.02.27:737][991]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.10.15-03.02.27:737][991]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.10.15-03.02.27:738][991]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.10.15-03.02.27:739][991]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.10.15-03.02.28:140][991]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.10.15-03.02.28:140][991]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.10.15-03.02.28:140][991]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.10.15-03.02.28:140][991]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.10.15-03.02.28:141][991]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.10.15-03.02.28:142][991]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.10.15-03.02.28:327][991]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.10.15-03.02.28:327][991]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.10.15-03.02.28:327][991]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.10.15-03.02.28:331][991]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.10.15-03.02.28:332][991]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.10.15-03.02.28:332][991]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.10.15-03.02.28:332][991]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.10.15-03.02.28:332][991]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.10.15-03.02.28:332][991]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.10.15-03.02.28:332][991]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.10.15-03.02.28:332][991]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.10.15-03.02.28:332][991]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.10.15-03.02.28:461][991]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.10.15-03.02.28:461][991]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.10.15-03.02.28:461][991]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.10.15-03.02.28:461][991]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.10.15-03.02.28:461][991]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.10.15-03.02.28:461][991]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.10.15-03.02.28:489][991]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.10.15-03.02.28:489][991]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.10.15-03.02.28:489][991]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.10.15-03.02.28:489][991]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.10.15-03.02.28:490][991]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.10.15-03.02.28:490][991]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.10.15-03.02.28:490][991]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.10.15-03.02.28:504][991]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.15-03.02.28:504][991]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.10.15-03.02.28:504][991]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.10.15-03.02.28:504][991]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.10.15-03.02.28:504][991]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.10.15-03.02.28:504][991]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.10.15-03.02.28:504][991]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.10.15-03.02.28:505][991]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.10.15-03.02.28:505][991]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.10.15-03.02.28:505][991]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.10.15-03.02.28:505][991]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.10.15-03.02.28:508][991]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.10.15-03.02.28:508][991]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.10.15-03.02.28:508][991]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.10.15-03.02.28:630][991]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.10.15-03.02.28:630][991]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.10.15-03.02.28:642][991]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.10.15-03.02.28:642][991]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.10.15-03.02.28:714][991]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.10.15-03.02.28:714][991]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.10.15-03.02.28:714][991]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.10.15-03.02.28:714][991]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.10.15-03.02.28:714][991]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.10.15-03.02.28:714][991]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.10.15-03.02.28:714][991]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.10.15-03.02.28:714][991]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.10.15-03.02.28:714][991]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.10.15-03.02.28:715][991]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.10.15-03.02.28:715][991]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.10.15-03.02.28:715][991]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.10.15-03.02.28:715][991]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.10.15-03.02.28:750][991]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.10.15-03.02.28:828][991]LogDerivedDataCache: Shutdown
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.10.15-03.02.28:828][991]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.10.15-03.02.28:829][991]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.10.15-03.02.28:830][991]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.10.15-03.02.28:830][991]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.10.15-03.02.28:830][991]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.10.15-03.02.28:830][991]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.10.15-03.02.28:830][991]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.10.15-03.02.28:851][991]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.10.15-03.02.28:851][991]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.10.15-03.02.28:851][991]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.15-03.02.28:851][991]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.15-03.02.28:851][991]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.15-03.02.28:851][991]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.15-03.02.28:851][991]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.15-03.02.28:851][991]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.15-03.02.28:852][991]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.15-03.02.28:866][991]LogExit: Exiting.
+[2015.10.15-03.02.28:967][991]Log file closed, 10/14/15 20:02:28
